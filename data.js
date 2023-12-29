@@ -57,7 +57,7 @@ let productsData=[
         "author":"Dhrubes Biswas",
         "Publication":"McGraw Hill Education",
         
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/ece_210.jpg"
     },
     {
         "id":220,
@@ -66,7 +66,7 @@ let productsData=[
         "author":"Robert L. Boylestad",
         "Publication":"Pearson Education",
 
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/ece_220.jpg"
     },
     {
         "id":230,
@@ -75,7 +75,7 @@ let productsData=[
         "author":"M. Morris Mano",
         "Publication":"Pearson Education",
 
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/ece_230.jpg"
     },
     {
         "id":240,
@@ -84,7 +84,7 @@ let productsData=[
         "author":"Madan Gopal",
         "Publication":"New Age",
 
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/ece_240.jpg"
     },
     {
         "id":250,
@@ -93,7 +93,7 @@ let productsData=[
         "author":"Jacob Millman",
         "Publication":"McGraw Hill Education",
         
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/ece_250.jpg"
     },
     // ---------------------- EEE --------------------
     {
@@ -103,7 +103,7 @@ let productsData=[
         "author":"V K Mehta",
         "Publication":"S. Chand",
         
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/eee_310_.jpg"
     },
     {
         "id":320,
@@ -112,7 +112,7 @@ let productsData=[
         "author":"P. S. Bimbhra",
         "Publication":"Khanna Publishers",
 
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/eee_320.jpg"
     },
     {
         "id":330,
@@ -121,7 +121,7 @@ let productsData=[
         "author":"D.P. Kothari",
         "Publication":"McGraw Hill Education",
 
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/eee_330.jpg"
     },
     {
         "id":340,
@@ -130,7 +130,7 @@ let productsData=[
         "author":"P. S. Bimbhra",
         "Publication":"Khanna Publishers",
 
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/eee_340.jpg"
     },
     {
         "id":350,
@@ -139,7 +139,7 @@ let productsData=[
         "author":"Charles K. Alexander",
         "Publication":"McGraw Hill Education",
 
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/eee_350.jpg"
     },
     // ---------------------- Civil --------------------
     {
@@ -149,7 +149,7 @@ let productsData=[
         "author":"Dr.B.P.Verma",
         "Publication":"Khanna Publishers",
         
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/civil_410.jpg"
     },
     {
         "id":420,
@@ -158,7 +158,7 @@ let productsData=[
         "author":" C.S.Changeriya",
         "Publication":"Chetan Publishers",
 
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/civil_420.jpg"
     },
     {
         "id":430,
@@ -167,7 +167,7 @@ let productsData=[
         "author":"S.K. Duggal",
         "Publication":"New Age",
 
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/civil_430.jpg"
     },
     {
         "id":440,
@@ -176,7 +176,7 @@ let productsData=[
         "author":"Satheesh Gopi",
         "Publication":"Pearson",
 
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/civil_440.jpg"
     },
     {
         "id":450,
@@ -185,7 +185,7 @@ let productsData=[
         "author":"Prem Vardhan",
         "Publication":"Notion Press",
 
-        "img":""
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/civil_450.jpg"
     }
 
 ]

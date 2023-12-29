@@ -36,14 +36,12 @@
   align-items: baseline;
   gap: 6em;
 }
-/* .book_name{
-  width: 100px;
-} */
+
 .shopping_cart #img_id img {
   height: 114px;
-  width: 120px;
+  width: 100px;
   box-shadow: 1px 1px 3px 1px #aabbba;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 .t_amount,.price{
   font-size: 18px;

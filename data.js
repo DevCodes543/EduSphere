@@ -1,39 +1,49 @@
 let productsData=[
     {
         "id":110,
-        "name":"Product 1",
+        "name":"The C++ Programming Language",
         "price":10000,
-        "author":"",
-        "publisher":"",
+        "author":"Bjarne Stroustrup",
+        "publisher":"Pearson",
 
-        // "img":"https://github.com/DevCodes543/e_Commerce_cart/blob/main/Images/cse_cpp.jpg"
-        // "img":"Images/cse_cpp.jpg"
-        "img":"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51hH6DAw87L.jpg"
+        // "img":"https://github.com/DevCodes543/EduSphere/blob/2dd4af2b19ffa03ddba4432034386c3d720669ab/Images/cse_cpp.jpg"
+        // "img":"DevCodes543/EduSphere/Images/cse_cpp.jpg"
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/cse_cpp.jpg"
+        // "img":"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51hH6DAw87L.jpg"
     },
     {
         "id":120,
-        "name":"Product 2",
-        "price":60000,
-        "author":"",
-        "publisher":"",
+        "name":"Core Python Programming",
+        "price":740,
+        "author":"R. Nageswara Rao",
+        "publisher":"DreamTech",
         
         "img":"https://media.istockphoto.com/id/1368668736/photo/apple-brand-m1-model-macbook-pro-with-colorful-light-background.jpg?s=612x612&w=0&k=20&c=6Bd0Ce3A31EGSVK9dxDFoVPcX3PViYa6HdiDkOknZ5c="
     },
     {
         "id":130,
-        "name":"Product 3",
-        "price":300,
-        "author":"",
-        "publisher":"",
+        "name":"Programming with Java",
+        "price":659,
+        "author":"E. Balagurusamy",
+        "publisher":"McGraw Hill",
         
         "img":"https://bl-i.thgim.com/public/incoming/fk5hrs/article67097604.ece/alternates/LANDSCAPE_1200/MacBookAir%2015inch_5.JPG"
     },
     {
         "id":140,
-        "name":"Product 4",
-        "price":400,
-        "author":"",
-        "publisher":"",
+        "name":"Practical AI for Cybersecurity",
+        "price":3000,
+        "author":"Ravi Das",
+        "publisher":"CRC Press",
+   
+        "img":"https://media.istockphoto.com/id/1368668736/photo/apple-brand-m1-model-macbook-pro-with-colorful-light-background.jpg?s=612x612&w=0&k=20&c=6Bd0Ce3A31EGSVK9dxDFoVPcX3PViYa6HdiDkOknZ5c="
+    },
+    {
+        "id":150,
+        "name":"Beginning HTML5 and CSS3",
+        "price":4100,
+        "author":"Divya , Christopher",
+        "publisher":"APress",
    
         "img":"https://media.istockphoto.com/id/1368668736/photo/apple-brand-m1-model-macbook-pro-with-colorful-light-background.jpg?s=612x612&w=0&k=20&c=6Bd0Ce3A31EGSVK9dxDFoVPcX3PViYa6HdiDkOknZ5c="
     },

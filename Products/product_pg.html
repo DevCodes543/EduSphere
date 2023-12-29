@@ -15,30 +15,49 @@
 
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="./product_pg.css" />
-    
+
     <title>Products</title>
   </head>
-  <body>
+  <body class="container-main">
     <!------------------- Nav Bar----------------- -->
-    <div class="nav" id="nav_product">
-      <a href="../index.html"><img class="logo" src="../Images/Logo.jpg" alt="Logo" /></a>
+    <!-- <div class="nav-logo"> -->
+    <a href="./index.html" class="nav-logo logo-1">
+      <img class="logo" src="../Images/Logo.jpg" alt="Logo" />
+    </a>
+    <!-- </div> -->
+    <div class="nav-1">
+      <a href="../index.html">
+        <h1>Welcome To EduSphere</h1>
+      </a>
+    </div>
 
-      <ul class="content">
-        <li class="input">
-          <i class="fa fa-search" aria-hidden="true"></i>
-          <input class="search" type="search" placeholder="Search" />
-        </li>
-        <a href="../index.html"><li class="">Home</li></a>
-        <a href="./product_pg.html"><li class="">Products</li></a>
-        <a href="#"><li class="">About</li></a>
-        <a href="../Contact/contact.html"><li class="">Contact</li></a>
-      </ul>
+    <div class="nav-2">
+      <a href="../index.html">Home</a>
+      <a href="../login/login.html" class="">Login</a>
+      <a href="../Registration/register.html" class="" >Registration</a>
+
+      <!-- <button class="btn btn-login login_btn" ></button> -->
+      <a href="./product_pg.html"> Catalogue </a>
+
+      <!-- <a href="#">About</a> -->
+
+      <!-- <a href="./Contact/contact.html">Contact</a> -->
+
       <a href="../Cart/cart.html" class="btn_cart cart btn-cart" id="cart">
+        <!-- <span>Cart</span> -->
         <i class="fa-solid fa-cart-shopping"></i>
         <span id="cart_number"></span>
       </a>
-      <button class="btn login_btn" onclick="login()">Login</button>
-      <!-- <script src="../nav_script.js"></script> -->
+    </div>
+    <!-- <div class="hamburger"><i class="bi bi-list"></i></div> -->
+
+    <!--  Side Bar -->
+
+    <div class="side-bar" id="side-bar">
+      <div  class="side-tabs" id="cse" >CSE</div>
+      <div  class="side-tabs" id="ece">ECE</div>
+      <div  class="side-tabs" id="eee">EEE</div>
+      <div  class="side-tabs" id="civil">CIVIL</div>
     </div>
 
     <div class="product_pg" id="product_pg"></div>

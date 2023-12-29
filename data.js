@@ -1,13 +1,13 @@
 let productsData=[
+    // ---------------------- CSE --------------------
     {
         "id":110,
         "name":"The C++ Programming Language",
-        "price":10000,
+        "price":426,
         "author":"Bjarne Stroustrup",
-        "publisher":"Pearson",
+        "Publication":"Pearson Education",
 
-        // "img":"https://github.com/DevCodes543/EduSphere/blob/2dd4af2b19ffa03ddba4432034386c3d720669ab/Images/cse_cpp.jpg"
-        // "img":"DevCodes543/EduSphere/Images/cse_cpp.jpg"
+        
         "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/cse_cpp.jpg"
         // "img":"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51hH6DAw87L.jpg"
     },
@@ -16,68 +16,176 @@ let productsData=[
         "name":"Core Python Programming",
         "price":740,
         "author":"R. Nageswara Rao",
-        "publisher":"DreamTech",
+        "Publication":"DreamTech",
         
-        "img":"https://media.istockphoto.com/id/1368668736/photo/apple-brand-m1-model-macbook-pro-with-colorful-light-background.jpg?s=612x612&w=0&k=20&c=6Bd0Ce3A31EGSVK9dxDFoVPcX3PViYa6HdiDkOknZ5c="
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/cse_python.webp"
+
     },
     {
         "id":130,
         "name":"Programming with Java",
         "price":659,
         "author":"E. Balagurusamy",
-        "publisher":"McGraw Hill",
+        "Publication":"McGraw Hill",
         
-        "img":"https://bl-i.thgim.com/public/incoming/fk5hrs/article67097604.ece/alternates/LANDSCAPE_1200/MacBookAir%2015inch_5.JPG"
+        // "img":"https://github.com/DevCodes543/EduSphere/blob/main/Images/cse_java.jpg?raw=true"
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/cse_java.jpg"
     },
     {
         "id":140,
         "name":"Practical AI for Cybersecurity",
         "price":3000,
         "author":"Ravi Das",
-        "publisher":"CRC Press",
-   
-        "img":"https://media.istockphoto.com/id/1368668736/photo/apple-brand-m1-model-macbook-pro-with-colorful-light-background.jpg?s=612x612&w=0&k=20&c=6Bd0Ce3A31EGSVK9dxDFoVPcX3PViYa6HdiDkOknZ5c="
+        "Publication":"CRC Press",
+
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/cse_ai.webp"
     },
     {
         "id":150,
         "name":"Beginning HTML5 and CSS3",
         "price":4100,
         "author":"Divya , Christopher",
-        "publisher":"APress",
-   
-        "img":"https://media.istockphoto.com/id/1368668736/photo/apple-brand-m1-model-macbook-pro-with-colorful-light-background.jpg?s=612x612&w=0&k=20&c=6Bd0Ce3A31EGSVK9dxDFoVPcX3PViYa6HdiDkOknZ5c="
+        "Publication":"APress",
+
+        "img":"https://raw.githubusercontent.com/DevCodes543/EduSphere/main/Images/cse_html.webp"
     },
+    // ---------------------- ECE --------------------
     {
         "id":210,
-        "name":"Product 5",
-        "price":500,
-        "author":"",
-        "publisher":"",
-        "img":"https://photos5.appleinsider.com/gallery/49298-96697-MacBook-Air-Closed-on-Desk-xl.jpg"
+        "name":"Semiconductor Physics and Devices",
+        "price":770,
+        "author":"Dhrubes Biswas",
+        "Publication":"McGraw Hill Education",
         
+        "img":""
     },
     {
         "id":220,
-        "name":"Product 6",
-        "price":600,
-        "author":"",
-        "publisher":"",
-        "img":"https://images.unsplash.com/photo-1588064578354-c1e28d429246?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFjYm9va3x8fHx8fDE2OTYwMjI4Nzc&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600"
+        "name":"Electronic Devices and Circuits",
+        "price":260,
+        "author":"Robert L. Boylestad",
+        "Publication":"Pearson Education",
+
+        "img":""
     },
     {
         "id":230,
-        "name":"Product 7",
-        "price":700,
-        "details":"",
-        "img":"https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+        "name":"Digital Logic and Computer Design ",
+        "price":990,
+        "author":"M. Morris Mano",
+        "Publication":"Pearson Education",
+
+        "img":""
     },
     {
         "id":240,
-        "name":"Product 8",
-        "price":800,
-        "author":"",
-        "publisher":"",
-        "img":"https://cdn.vox-cdn.com/thumbor/d3mJddAsI2HsWAxlZZjUElxcpYs=/0x0:2040x1360/1400x788/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22046476/vpavic_4291_20201113_0366.0.jpg"
+        "name":"Control Systems Engineering",
+        "price":490,
+        "author":"Madan Gopal",
+        "Publication":"New Age",
+
+        "img":""
+    },
+    {
+        "id":250,
+        "name":"Millman's Integrated Electronics",
+        "price":430,
+        "author":"Jacob Millman",
+        "Publication":"McGraw Hill Education",
+        
+        "img":""
+    },
+    // ---------------------- EEE --------------------
+    {
+        "id":310,
+        "name":"Objective Electrical Technology",
+        "price":615,
+        "author":"V K Mehta",
+        "Publication":"S. Chand",
+        
+        "img":""
+    },
+    {
+        "id":320,
+        "name":"Power Electronics",
+        "price":2099,
+        "author":"P. S. Bimbhra",
+        "Publication":"Khanna Publishers",
+
+        "img":""
+    },
+    {
+        "id":330,
+        "name":"Modern Power System Analysis",
+        "price":370,
+        "author":"D.P. Kothari",
+        "Publication":"McGraw Hill Education",
+
+        "img":""
+    },
+    {
+        "id":340,
+        "name":"Electrical Machinery",
+        "price":2540,
+        "author":"P. S. Bimbhra",
+        "Publication":"Khanna Publishers",
+
+        "img":""
+    },
+    {
+        "id":350,
+        "name":"Fundamentals of Electric Circuits",
+        "price":2880,
+        "author":"Charles K. Alexander",
+        "Publication":"McGraw Hill Education",
+
+        "img":""
+    },
+    // ---------------------- Civil --------------------
+    {
+        "id":410,
+        "name":"Drawing & House Planning",
+        "price":169,
+        "author":"Dr.B.P.Verma",
+        "Publication":"Khanna Publishers",
+        
+        "img":""
+    },
+    {
+        "id":420,
+        "name":"AutoCAD Workbook",
+        "price":150,
+        "author":" C.S.Changeriya",
+        "Publication":"Chetan Publishers",
+
+        "img":""
+    },
+    {
+        "id":430,
+        "name":"Building Materials",
+        "price":429,
+        "author":"S.K. Duggal",
+        "Publication":"New Age",
+
+        "img":""
+    },
+    {
+        "id":440,
+        "name":"Basic Civil Engineering",
+        "price":334,
+        "author":"Satheesh Gopi",
+        "Publication":"Pearson",
+
+        "img":""
+    },
+    {
+        "id":450,
+        "name":"Civil Engineering Solutions",
+        "price":311,
+        "author":"Prem Vardhan",
+        "Publication":"Notion Press",
+
+        "img":""
     }
 
 ]

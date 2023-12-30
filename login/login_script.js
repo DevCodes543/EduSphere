@@ -1,25 +1,19 @@
-
-function login() {
-    let pop = document.getElementById("login_page");
-    pop.style.visibility = "visible";
-}
-function login_reverse() {
-    let pop = document.getElementById("login_page");
-    pop.style.visibility = "hidden";
-}
-window.onload = login();
-
-
-
-
 // validate 
-function validate(){
-    // debugger;
+
+document.getElementById('login-form').addEventListener('submit', function(event) {
+
     let name=document.getElementById('name').value;
-    console.log(name);
-    console.log("name")
     // alert(name);
-    if(name==""){
-        alert("enter details");
+    if(name.length<6){
+        alert("Username should be at least 6 characters !!");
+        event.preventDefault();
     }
-}
+
+    var password = document.getElementById('pwd').value;
+    if (password.length < 6) {
+      alert('Password should be at least 6 characters long !!');
+      event.preventDefault(); // Prevent form submission
+    }
+  });
+
+  

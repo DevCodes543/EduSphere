@@ -32,7 +32,7 @@
   <body class="container-main">
     <!------------------- Nav Bar----------------- -->
     <!-- <div class="nav-logo"> -->
-    <a href="./index.html" class="nav-logo logo-1">
+    <a href="../index.html" class="nav-logo logo-1">
       <img class="logo" src="../Images/Logo.jpg" alt="Logo" />
     </a>
     <!-- </div> -->
@@ -76,12 +76,12 @@
 
     <div class="register-form-box" id="contact-form">
       <br />
-      <form onsubmit="validate()" class="register-form">
+      <form  class="register-form" id="register-form">
         <h1 class="heading heading-r">Registration Page</h1>
         
         <div>
           <label class="label" for="name">Enter Name : </label>
-          <input type="text" name="name" id="name" placeholder="Sample Name" />
+          <input type="text" name="name" id="name" placeholder="Sample Name" required />
         </div>
         <div>
           <label class="label" for="email">E-mail : </label>
@@ -90,11 +90,13 @@
             name="mail"
             id="email"
             placeholder="abc123@xyz.com"
+           required
           />
         </div>
         <div>
           <label class="label" for="phone">Ph. Number : </label>
-          <input type="tel" name="phone" id="phone" placeholder="9876543210" />
+          <input type="tel" name="phone" id="phone" placeholder="9876543210"  required />
+          
         </div>
         <div>
           <label class="label" for="pwd">Password : </label>
@@ -104,6 +106,7 @@
             class="input-form"
             id="pwd"
             placeholder="Enter Password"
+            required
           />
         </div>
         <div>
@@ -177,7 +180,7 @@
             id="btn-submit"
             type="submit"
             class="btn-login"
-            onclick="validate()"
+            
           >
             Submit
           </button>
@@ -191,8 +194,19 @@
       <br>
     </div>
 
-    <!-- </div> -->
 
+    <!----------------- footer ---------------->
+    <footer class="footer">
+      <!-- <hr /> -->
+      <span> Copyright &copy; 2023 | Devesh | @DevCodes </span>
+      <span id="foot-span">|</span> <span> All Rights Reserved</span>
+      <!-- <a href=""><i class="fa-brands fa-linkedin"></i></a> -->
+      <a href="https://www.linkedin.com/in/devcodes/" target="_blank"><i class="bi bi-linkedin"></i> </a>
+      <a href="https://github.com/devcodes543" target="_blank"><i class="bi bi-github"></i></i> </a>
+      <a href="mailto:deveshlucky202@gmail.com" target="_blank"><i class="bi bi-envelope"></i> </a>
+      <!-- <a href=""><i class="fa-solid fa-envelope"></i> </a> -->
+    </footer>
+   
     <script src="./register.js"></script>
     <script src="../data.js"></script>
     <script src="../Products/product_pg.js"></script>

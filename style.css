@@ -336,17 +336,19 @@ body {
   grid-area: fotr;
   background-color: #3c3b3bd1;
   width: 100%;
-  
+  color: #ffffff;
   text-align: center;
   font-size: 20px;
-  margin-top: 3%;
+  margin-top: 4%;
+  z-index: 12;
   
-  padding: 2% 0;
+  padding: 1% 0;
   & a{
     text-align: center;
     padding-left: 5%;
     font-size: 30px;
-    color: #000000;
+    /* color: #000000; */
+    color: #ffffff;
     text-decoration: none;
   }
   

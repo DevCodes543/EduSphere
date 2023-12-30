@@ -87,6 +87,7 @@ let display_cartItems = () => {
   } 
   else {
     shoppingCart.innerHTML = ``;
+    shoppingCart.style.background="transparent";
     cartContent.innerHTML = ``;
     print_amount.innerHTML = ``;
     top_label.style.display = "block";

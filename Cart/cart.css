@@ -1,6 +1,9 @@
 /* ------------------- Cart Page --------------------- */
 .shopping_cart {
   /* display: grid; */
+  
+  background-color: #0b0b0bc7; 
+  margin: 2%;
   padding: 50px;
   grid-area: cont;
 }
@@ -10,22 +13,31 @@
   grid-template-columns: repeat(6, auto);
   font-size: 25px;
 }
+.cart_content{
+  background-color: #0b0b0bc7;
+  background-color: #3f3e3ea2;
+  box-shadow: 1px 1px 8px 1px gray;
+  width: fit-content;
+
+  padding:3% 0;
+
+}
 .top_label {
   grid-area: cont;
   margin: 8%;
   margin-right: 28%;
   text-align: center;
   font-size: 50px;
+  background-color: #03030380;
   box-shadow: 1px 1px 6px 1px gray;
   border-radius: 20px;
   padding: 0 0 7%;
 }
+
 .cart_content .cart_item {
   /* display: flex; */
   height: 120px;
-  /* justify-content: space-evenly; */
-  /* gap: 2rem; */
-  /* align-items: center; */
+
   display: grid;
   grid-template-columns: repeat(6, auto);
   align-items: center;
